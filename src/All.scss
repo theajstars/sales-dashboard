@@ -1,9 +1,10 @@
-@import url("./Fonts.scss");
-@import url("./Variables.scss");
+@import "./Fonts.scss";
+@import "./Variables.scss";
 // Poppins Font
 body {
   margin: 0 auto;
   padding: 0 auto;
+  background-color: $WhitePrimary;
 }
 * {
   font-family: "Poppins", sans-serif;

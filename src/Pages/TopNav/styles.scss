@@ -1,0 +1,10 @@
+@import "../../Variables.scss";
+.top-nav-container {
+  position: fixed;
+  top: 0px;
+  height: 90px;
+  width: 100%;
+  background-color: $White;
+  box-sizing: border-box;
+  padding-left: 50px;
+}
