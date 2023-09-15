@@ -1,0 +1,46 @@
+@import "../../Variables.scss";
+.today-sales-container {
+  background-color: $White;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 30px 20px 40px 20px;
+  border-radius: 20px;
+  .export {
+    background-color: $White;
+    border: 1px solid $GrayDefault;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    height: 38px;
+    border-radius: 10px;
+    transition-duration: 0.12s;
+
+    &:hover {
+      background-color: $WhitePrimary;
+    }
+  }
+  .card {
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px 16px;
+    width: 165px;
+    // width: 100%;
+    // margin: 0 20px;
+    height: 190px;
+    img {
+      height: 50px;
+      width: 50px;
+    }
+    &-red {
+      background-color: $RedLight;
+    }
+    &-green {
+      background-color: $GreenLight;
+    }
+    &-yellow {
+      background-color: $YellowLight;
+    }
+    &-purple {
+      background-color: $PurpleLight;
+    }
+  }
+}

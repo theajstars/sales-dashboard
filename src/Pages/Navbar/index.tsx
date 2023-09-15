@@ -36,7 +36,7 @@ export default function Navbar() {
           &nbsp; &nbsp;
           <span className="px-20 fw-600 pointer">Sales</span>
         </div>
-        <div className="nav-items">
+        <div className="nav-items flex-col justify-between">
           {Routes.map((route, index) => {
             return (
               <Link
